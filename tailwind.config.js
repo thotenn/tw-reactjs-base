@@ -1,10 +1,9 @@
 module.exports = {
-    //purge: ['./src/**/*.{js,jsx,ts,tsx}', './dist/build/index.html'],
-    purge: {
-      enabled: true,
-      content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html']
-    },
-    darkMode: false, // or 'media' or 'class'
+    content: [
+      './public/**/*.html',
+      './src/**/*.js',
+    ],
+    darkMode: 'media', // or 'media' or 'class'
     theme: {
       fontFamily: {
         iflower: ['Indie Flower', 'Open Sans']
