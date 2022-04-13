@@ -2,7 +2,7 @@ module.exports = {
     //purge: ['./src/**/*.{js,jsx,ts,tsx}', './dist/build/index.html'],
     purge: {
       enabled: true,
-      content: ['./src/**/*.{js,jsx,ts,tsx}', './dist/index.html']
+      content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html']
     },
     darkMode: false, // or 'media' or 'class'
     theme: {
