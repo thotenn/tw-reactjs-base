@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --open --hot --config=webpack.development.config.js",
     "dev": "webpack --mode development --watch --config=webpack.development.config.js",
-    "build": "webpack --mode production --config=webpack.production.config.js",
+    "build": "webpack --mode production --config=webpack.production.config.js & postcss ./src/init.css -o ./public/css/main.css",
     "build:css": "postcss ./src/init.css -o ./public/css/main.css"
   },
   "repository": {

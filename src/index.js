@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './init.css';
+if (process.env.NODE_ENV !== 'production') {require('./init.css')};
 import {App} from './App';
 
 ReactDOM.render(

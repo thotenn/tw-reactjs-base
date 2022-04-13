@@ -27,7 +27,7 @@ module.exports = {
                     options: {presets: ["@babel/env", "@babel/preset-react"]}
                 },
             },
-            {
+            /*{
                 test: /\.css$/,
                 use: ['style-loader',
                     {
@@ -36,7 +36,7 @@ module.exports = {
                     },
                     'postcss-loader'
                 ],
-            },
+            },*/
         ],
     },
     optimization: {
