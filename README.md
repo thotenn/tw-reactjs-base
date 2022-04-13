@@ -1,2 +1,2 @@
-# tw-reactjs-base
-tailwind and reactjs base dev
+# twcmp
+tailwind components
