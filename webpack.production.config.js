@@ -6,7 +6,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, "./static/build"),
         filename: "main.bundle.js",
-        // filename: "[name].js",
         chunkFilename: "[id]-[chunkhash].js",
         clean: true,
     },
@@ -27,7 +26,10 @@ module.exports = {
                     options: {presets: ["@babel/env", "@babel/preset-react"]}
                 },
             },
-            /*{
+            /*
+            // if you want to include the css, uncomment this section and the index.html remove
+            // the tag link to main.css
+            {
                 test: /\.css$/,
                 use: ['style-loader',
                     {
