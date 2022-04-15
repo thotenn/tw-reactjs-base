@@ -1,7 +1,7 @@
 {
-  "name": "twcmp",
+  "name": "tw-reactjs-base",
   "version": "1.0.0",
-  "description": "tailwind components",
+  "description": "tailwind base for dev on reactjs",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode=development --open --hot --config=webpack.development.config.js",
@@ -11,17 +11,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thotenn/twcmp.git"
+    "url": "git+https://github.com/thotenn/tw-reactjs-base.git"
   },
   "keywords": [
-    "twcmp"
+    "tw-reactjs-base"
   ],
   "author": "thotenn",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thotenn/twcmp/issues"
+    "url": "https://github.com/thotenn/tw-reactjs-base/issues"
   },
-  "homepage": "https://github.com/thotenn/twcmp#readme",
+  "homepage": "https://github.com/thotenn/tw-reactjs-base#readme",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
