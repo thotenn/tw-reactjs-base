@@ -8,11 +8,11 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: theme => ({
-        'arrow-blue': `url('../${base_dir}assets/img/pattern-arrow-blue.png')`,
-        'wave-white': `url(../${base_dir}assets/img/pattern-wave-white.png)`,
-        'wave-dots': `url(../${base_dir}assets/img/pattern-white-dots.png)`,
-        'wave-pink': `url('../${base_dir}assets/img/pattern-wave-pink.png')`,
-        'yellow-dots': `url('../${base_dir}assets/img/pattern-yellow-dots.png')`,
+        'arrow-blue': `url('../${base_dir}assets/patterns/pattern-arrow-blue.png')`,
+        'wave-white': `url(../${base_dir}assets/patterns/pattern-wave-white.png)`,
+        'wave-dots': `url(../${base_dir}assets/patterns/pattern-white-dots.png)`,
+        'wave-pink': `url('../${base_dir}assets/patterns/pattern-wave-pink.png')`,
+        'yellow-dots': `url('../${base_dir}assets/patterns/pattern-yellow-dots.png')`,
       }),
     },
     fontFamily: {
